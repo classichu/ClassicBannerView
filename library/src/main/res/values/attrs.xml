@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClassicBannerView">
+    <attr name="classic_indicatorContainerBackgroundColor" format="color|reference"/>
+    <attr name="classic_indicatorTextColor" format="color|reference"/>
+    <attr name="classic_indicatorTextSize" format="dimension|reference"/>
+    </declare-styleable>
+</resources>

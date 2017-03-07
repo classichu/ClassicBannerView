@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.classichu.bannerview.widget.BannerViewPager
+        android:id="@+id/id_banner_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/id_ll_banner_indicator_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#66000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:id="@+id/id_tv_banner_indicator_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="xxxx12121212121"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/id_ll_banner_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--动态添加指示器-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
