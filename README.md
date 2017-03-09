@@ -20,5 +20,12 @@ Step 2. Add the dependency  [![](https://jitpack.io/v/classichu/ClassicBannerVie
 
 
 
+attrs
 
-
+	  <com.classichu.bannerview.widget.ClassicBannerView
+            android:id="@+id/id_classic_banner_view"
+            android:layout_width="match_parent"
+            app:classic_indicatorTextSize="16dp"
+            app:classic_indicatorContainerBackgroundColor="@color/colorAccent"
+            app:classic_indicatorTextColor="@color/colorPrimary"
+            android:layout_height="230dp"/>
